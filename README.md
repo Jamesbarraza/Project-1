@@ -6,10 +6,7 @@ Broadly, we're interested in the effect of the coronavirus on stock prices acros
 
 We have a few theories on which industries are affected negatively (e.g. travel, hotel, restaurants) and what may not be very affected (large tech companies). Some questions we're looking to answer: Which industries are most affected? Which are least affected? What specific companies are most affected? About where do we see the effects starting? We're also looking to include data on Coronavirus prevalence to see if we can draw a connection between that and the stock market impact.
 
-To accomplish this, we'll be using stock price and company profile information from a finance data API like IEX Cloud or Alpha Vantage. Both of these sources provide realtime data on stock market information and each have information on various company profiles. Each company is tagged with an industry-level tag so this will be our primary means of determining industry.
-
-IEX Cloud
-https://iexcloud.io/
+To accomplish this, we'll be using stock price and company profile information from the finance data API Alpha Vantage. Alpha Vantage provides realtime data on stock market information and has information on various company profiles. Each company is tagged with an industry-level tag so this will be our primary means of determining industry.
 
 Alpha Vantage
 https://www.alphavantage.co/
